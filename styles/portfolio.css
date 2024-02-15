@@ -1,8 +1,9 @@
 /* nav related styles */
 nav {
     display: flex;
-     justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -33,10 +34,28 @@ nav a {
 .btn-primary {
     border-radius: 5px;
     background: orange;
-    border:0px;
+    border: 0px;
     color: white;
     font-size: 20px;
     font-weight: 700px;
     padding: 15px 35px;
 
+}
+
+/* header related style */
+.header {
+    background-color: bisque;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 500px;
+}
+.banner-contant{
+    
 }
