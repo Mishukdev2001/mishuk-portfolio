@@ -51,7 +51,7 @@ nav a {
 }
 
 .banner {
-    padding: 30px 0px 0px 150px; 
+    padding: 30px 0px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -61,48 +61,64 @@ nav a {
     width: 500px;
     /* margin-left:200px ; */
 }
-.banner-contant{
+
+.banner-contant {
     max-width: 500px;
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 45px;
     margin-bottom: 0;
 }
-.banner-title{
+
+.banner-title {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
 }
-.banner-description{
+
+.banner-description {
     margin-top: 25px;
 }
+
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section styles */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: rgb(169, 169, 169);
-    margin:130px 0 ;
+    margin: 130px 0;
 }
-.section-title{
+
+.section-title {
     color: black;
     text-align: center;
     font-size: 35px;
     font-weight: 700px;
 }
-.section-description{
+
+.section-description {
     color: bisque;
     text-align: center;
     font-size: 18px;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+/* what i do section style */
+.section-descriptions {
+    padding: 30px 150px;
+    
 }
